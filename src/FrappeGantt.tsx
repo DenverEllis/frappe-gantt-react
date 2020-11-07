@@ -69,7 +69,7 @@ export class FrappeGantt extends React.Component<FrappeGanttProps, any> {
 
   render() {
     return (
-      <div style={{ overflow: "scroll" }} ref={this._target}>
+      <div ref={this._target}>
         <svg
           ref={this._svg}
           width="100%"
